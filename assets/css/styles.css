@@ -135,6 +135,34 @@ img {
   padding: 2rem 0 4rem;
 }
 
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+  padding: 50px; /* Add padding to the entire gallery */
+}
+
+.image-container {
+  flex: 1;
+  max-width: 45%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+.galleryTitle{
+  flex: auto;
+  margin-left: 250px;
+
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
